@@ -51,6 +51,12 @@
 			"revisionTime": "2016-09-18T10:12:19Z"
 		},
 		{
+			"checksumSHA1": "D+rA4C4aTWlXRhROhIwsMXcWqsM=",
+			"path": "github.com/kataras/go-template/html",
+			"revision": "457f21178102f4688603eccbb4f2e8d5ae1023bf",
+			"revisionTime": "2016-11-11T10:06:00Z"
+		},
+		{
 			"checksumSHA1": "vfzz7zTL9TZLpFO7NC1H6/Du3+s=",
 			"path": "github.com/klauspost/compress/flate",
 			"revision": "e3b7981a12dd3cab49afa1d3a50e715846f23732",
