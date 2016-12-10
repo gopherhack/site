@@ -2,13 +2,14 @@ package main
 
 import (
 	"gopkg.in/kataras/iris.v4"
-	"gopkg.in/iris-contrib/plugin.v4/oauth"
+	//"gopkg.in/iris-contrib/plugin.v4/oauth"
 
 	"os"
+
 	"github.com/kataras/go-template/html"
 )
 
-func main(){
+func main() {
 
 	port := os.Getenv("PORT")
 
@@ -17,10 +18,9 @@ func main(){
 	}
 	api := iris.New()
 	api.UseTemplate(html.New()).Directory("./public/templates", ".html")
-	api.Get("/", func(ctx  *iris.Context) {
-		ctx.Render("home.html", struct { Name string }{ Name: "GopherHack Hyderabad" })
+	api.Get("/", func(ctx *iris.Context) {
+		ctx.Render("home.html", struct{ Name string }{Name: "GopherHack Hyderabad"})
 	})
 
-
-	api.Listen(":"+port)
+	api.Listen(":" + port)
 }
