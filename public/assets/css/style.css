@@ -1,0 +1,15 @@
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color: #FFFFFF;
+    background-color: #375EAB;
+}
+.navbar-default {
+    background-color: #E0EBF5;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    font-size: 16px;
+    background-color: #fff;
+    line-height: 1.3em;
+}
